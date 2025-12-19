@@ -1,0 +1,120 @@
+// filter categories
+const categories = [
+  {
+    name: 'All',
+    filter: 'all',
+  },
+  {
+    name: 'Charcoal',
+    filter: 'charcoal',
+  },
+  {
+    name: 'Figure',
+    filter: 'figure',
+  },
+  {
+    name: 'Marker',
+    filter: 'marker',
+  },
+  {
+    name: 'Sketch',
+    filter: 'sketch',
+  },
+  {
+    name: 'Unfinished',
+    filter: 'unfinished',
+  },
+];
+
+const images = [
+  {
+    id: '1',
+    url: 'charcoal_final.jpg',
+    category: 'charcoal',
+    title: 'charcoal final',
+  },
+  {
+    id: '2',
+    url: 'charcoal_sl_blurry1.jpg',
+    category: 'charcoal',
+    title: 'charcoal still life blurry 1',
+  },
+  {
+    id: '3',
+    url: 'charcoal_sl_blurry2.jpg',
+    category: 'charcoal',
+    title: 'charcoal still life blurry 2',
+  },
+  {
+    id: '4',
+    url: 'charcoal_sl_hw1.jpg',
+    category: 'charcoal',
+    title: 'charcoal still life homework 1',
+  },
+  {
+    id: '5',
+    url: 'charcoal_sl_hw2.jpg',
+    category: 'charcoal',
+    title: 'charcoal still life homework 2',
+  },
+  {
+    id: '6',
+    url: 'charcoal_sl_hw3.jpg',
+    category: 'charcoal',
+    title: 'charcoal still life homework 3',
+  },
+  {
+    id: '7',
+    url: 'charcoal_sl_pad1.jpg',
+    category: 'charcoal',
+    title: 'Portrait 1',
+  },
+  {
+    id: '8',
+    url: 'charcoal_sl_pad2.jpg',
+    category: 'charcoal',
+    title: 'Wedding 1',
+  },
+  {
+    id: '9',
+    url: 'charcoal_sl_plant.jpg',
+    category: 'charcoal',
+    title: 'Hills',
+  },
+  {
+    id: '10',
+    url: 'figure_first.jpg',
+    category: 'figure',
+    title: 'Portrait 2',
+  },
+  {
+    id: '11',
+    url: 'marker_glassstudio.jpg',
+    category: 'marker',
+    title: 'Lake',
+  },
+  {
+    id: '12',
+    url: 'marker_maiden.jpg',
+    category: 'marker',
+    title: 'Landscape lake',
+  },
+  {
+    id: '13',
+    url: 'sketch_12-5-25.jpg',
+    category: 'sketch',
+    title: 'Mountain Snowy',
+  },
+  {
+    id: '14',
+    url: 'unfinished_building.jpg',
+    category: 'unfinished',
+    title: 'Aurora2',
+  },
+  {
+    id: '15',
+    url: 'unfinished_trainstation.jpg',
+    category: 'unfinished',
+    title: 'Mountain Green',
+  },
+];

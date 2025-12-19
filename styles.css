@@ -1,0 +1,146 @@
+@charset "utf-8";
+/* CSS Document */
+body{background-color: rgba(106, 141, 115, 1.00);}
+
+/* filtered masonry gallery*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #071e3d;
+  font-family: 'Roboto', sans-serif;
+}
+
+.title {
+  background-color: #1f4287;
+  color: white;
+  padding: 12px;
+  text-align: center;
+}
+
+#filter-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 12px;
+}
+
+.filter-element {
+  background-color: #1f4287;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 20px;
+  margin: 6px;
+  cursor: pointer;
+}
+
+.filter-element:hover {
+  background-color: #278ea5aa;
+}
+
+.filter-active {
+  background-color: #278ea5;
+}
+
+#gallery-container {
+  width: 90%;
+  margin: 0 auto;
+  column-count: 3;
+  column-gap: 0.5rem;
+}
+
+.gallery-image {
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+
+.gallery-image.hide-image {
+  display: none;
+}
+
+@media (max-width: 920px) {
+  #gallery-container {
+    column-count: 2;
+  }
+}
+
+/* scroll menu */
+div.scrollmenu {
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;}
+
+div.scrollmenu a {
+	display: inline-block;
+    color: white;
+    text-align: right;
+    padding-top: 14px;
+    padding-left: 14px;
+    padding-bottom: 14px;
+    text-decoration: none;}
+
+/* scroll gallery */
+.container {padding: 2rem;}
+
+.slider-wrapper 
+    {position: relative;
+	max-width: 50rem;
+	margin: 0 auto;}
+
+.slider 
+    {display: flex;
+	aspect-ratio: 16/9;
+	overflow-x: auto;
+	scroll-snap-type: x mandatory;
+	scroll-behavior: smooth;
+	box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
+	border-radius: 1rem;
+    webkit-overflow-scrolling: touch;}
+
+.slider img 
+    {scroll-snap-align: start;}
+
+.slider-nav 
+    {display:flex;
+	column-gap: 1 rem;
+	position: absolute;
+	bottom: 1.25rem;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 1;}
+
+.slider-nav a 
+    {width: 0.5rem;
+	height: 0.5rem;
+	border-radius: 50%;
+	background-color: #fff;
+	opacity: 0.75;
+	transition: opacity ease 2500ms;}
+
+.slider-nav a:hover 
+    {opacity: 1;}
+
+
+/*uhhh idk*/
+h1{color: rgba(230, 250, 252, 1.00);
+   font-family: Papyrus;
+   font-size: 50px;
+   text-align: center;
+   background-color: rgba(107, 163, 104, 1.00);
+   margin: 30px;
+   padding: 30px;}
+
+h3{color: rgba(230, 250, 252, 1.00);
+   font-family: Papyrus;
+   font-weight: bold;
+   font-size: 20px;
+   text-align: center;}
+
+ 
+p{color:rgba(78, 83, 64, 1.00);
+  font-family: Ariel;
+  font-size: 15px;
+  text-align: center;}

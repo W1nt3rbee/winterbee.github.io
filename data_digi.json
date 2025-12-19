@@ -1,0 +1,50 @@
+// filter categories
+const categories = [
+  {
+    name: 'All',
+    filter: 'all',
+  },
+  {
+    name: 'Illustrator',
+    filter: 'illustrator',
+  },
+  {
+    name: 'Photoshop',
+    filter: 'photoshop',
+  },
+  {
+    name: 'Indesign',
+    filter: 'indesign',
+  },
+  {
+    name: 'I-bis',
+    filter: 'ibis',
+  },
+];
+
+const images = [
+  {
+    id: '1',
+    url: 'eve_faceproj.jpg',
+    category: 'illustrator',
+    title: 'eve face project homework 1',
+  },
+  {
+    id: '2',
+    url: '',
+    category: 'photoshop',
+    title: 'transported away project',
+  },
+  {
+    id: '3',
+    url: '',
+    category: 'photoshop',
+    title: 'eve location porject homework 2',
+  },
+  {
+    id: '4',
+    url: 'mma100fall25proj1_final-melissaleon.jpg',
+    category: 'illustrator',
+    title: '3 words project 1 fall 25 ',
+  },
+];
